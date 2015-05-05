@@ -1,0 +1,108 @@
+body,td,th {font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height:18px;}
+body {background-color:#FFFFFF;margin:0px;padding:0px;text-align: center;}
+p	 { text-indent:2em;margin:0px;padding:0px;word-break:break-all;overflow:auto;}
+div,ul,ol,li{margin:0px;padding:0px;}
+div ul{margin:0px;padding:0px;list-style:none;}
+
+/* 14号标题*/
+h5{margin:0px;font-size:14px;color:#002065}
+/* 12号标题*/
+h4{margin:0px;font-size:12px;color:#002065}
+/* content页 资源标题*/
+h3{margin:0px;font-size:14px;font-weight:bold;color:#002065}
+
+/* 头部导航 */
+#Head_top #HeadTop{
+	position:relative;
+	width:90%;
+	margin:5px auto 1px !important;
+	margin:5px auto 1px;
+	text-align:left;
+}
+#Head_top #Logo{
+	position:absolute;
+	width:265px;
+	top:15px;
+	left:0px;
+}
+#Head_top #HeadNavBar{
+	float:right;
+	clear:right;
+	width:300px !important;
+	width:280px;
+}
+
+/* header */
+.top_bg{ background-image:url(images_top/top_bg.gif);height:10px;overflow: hidden;}
+.top_daohang_bg{ background-image:url(images_top/top_daohang_bg.gif);width:100%;height:30px;overflow: hidden;border:1px solid #6C9CC2; float:center;}
+.search_channel,.search_box,.search_key,.search_music,#td_recomm_key *{margin:0px;padding:0px;}
+.search_channel{}
+.search_box{}
+.search_key{height:20px;overflow: hidden;}
+.search_channel div{float:right;width:55px;padding-left:1px;padding:3px 0;line-height:14px;border-right:1px solid #99B3C4;}
+.search_channel .search_category span{padding-right:7px;}
+
+/* main */
+.main_nav{margin:0px;padding:0px;width:122px;height:200px;}
+.btn_bg1{background-image:url(images_top/btn_bg.gif);color:#375C77;border-bottom:1px solid #B0BEC7;cursor:pointer;cursor:hand;}
+.btn_bg{background-image:url(images_top/btn_bg.gif);color:#375C77;border:1px solid #B0BEC7;border-top:none;border-right:none; cursor:pointer;cursor:hand;}
+.btn_bg2{background-image:url(images_top/btn_bg.gif);color:#375C77;border:1px solid #B0BEC7;border-top:none;border-right:none;}
+.btn_select1{background-image:url(images_top/btn_select.gif);color:#FF0000;border-bottom:1px solid #FFFFFF;font-weight:bold;}
+.btn_select{background-image:url(images_top/btn_select.gif);color:#FF0000;border-bottom:1px solid #FFFFFF;font-weight:bold;border-left:1px solid #B0BEC7;}
+.btn_bg,.btn_bg2,.btn_bg1,.btn_select1,.btn_select{height:25px;line-height:24px;text-align:center;}
+.btn_bg,.btn_bg2,.btn_bg1,.btn_select1,.btn_select td{font-size:12px;}
+.left_nav{width:122px;height:255px;border:1px solid #B0BEC7;line-height:21px;}
+.left_nav ul{width:110px;overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.left_nav img{width:40px;height:40px;}
+
+/* 标准链接 */
+a:link	  {color:#004592;text-decoration:none;}
+a:visited {color:#004592;text-decoration:none;}
+a:hover   {color:#004592;text-decoration:underline;}
+a:active  {color:#004592;text-decoration: none;}
+
+.xw:link	{color:#fff;text-decoration:none;}
+.xw:visited {color:#fff;text-decoration:none;}
+.xw:hover   {color:#fff;text-decoration:underline;}
+.xw:active  {color:#fff;text-decoration: none;}
+
+.xt:link	{color:#ff0000;text-decoration:underline;}
+.xt:visited {color:#ff0000;text-decoration:underline;}
+.xt:hover   {color:#ff0000;text-decoration:underline;}
+.xt:active  {color:#ff0000;text-decoration:underline;}
+
+.xnav{margin:0px 5px;}
+.xnav:link	{color:#253455;text-decoration:none;}
+.xnav:visited {color:#253455;text-decoration:none;}
+.xnav:hover   {color:#253455;text-decoration:underline;}
+.xnav:active  {color:#253455;text-decoration:none;}
+
+.xbjwy:link	{color:#1CADFF;text-decoration:none;}
+.xbjwy:visited {color:#1CADFF;text-decoration:none;}
+.xbjwy:hover   {color:#1CADFF;text-decoration:underline;}
+.xbjwy:active  {color:#1CADFF;text-decoration: none;}
+
+/* 顶部产品下载按钮 */ 
+.header_btn{
+	float:right;
+	margin:4px 5px;
+	width:70px;
+	line-height:22px;
+	height:22px;
+	font-size:12px;
+	text-align:center;
+	border:1px solid #6C9CC2;
+	cursor:pointer;cursor:hand;
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#CFE1EF);
+	background-color:#DFEDF6;
+	}
+/* 分割线 */
+.top_fenge{
+   image:url(images_top/top_fenge.gif);width:"90%";height:10px;overflow: hidden;}
+}
+/* Standard Tip Hint */
+.HackBox{
+   border-top:1px solid transparent !important;
+   border-top:0;
+   clear:both;
+}

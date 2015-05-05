@@ -1,0 +1,484 @@
+/*
+By FFXK
+http://xoops.ffxk.com
+*/
+
+/* 屁悶蝕兵 */
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	background-color: #ffffff;
+	background-repeat: repeat-x;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* 協吶畠蕉猟忖 */
+a {
+      color: #004594;
+　　　text-decoration: none;
+　　　padding-bottom: 5px;
+　　　white-space: normal;
+　　}
+a:link { text-decoration: none }
+a:visited { text-decoration: none ; color: #eee8aa }
+a:hover { text-decoration: none ; color: #de184a }
+
+/* ！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！嶄何曝翠！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！ */
+#obLayout {
+	width: 95%;
+	margin: 0px auto;
+	padding: 0px;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+
+table {
+	width: 99%;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+td {
+	margin: 0px;
+	padding: 0px;
+	vertical-align: top;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/* 汽恣曝翠坪否 */
+#left {
+	padding: 0px;
+	background-color: transparent;
+	color: #AAAAAA;
+	font-size: 12px;
+	width: 150px;
+}
+
+/* 畠恣曝翠坪否 */
+#leftcolumn {
+	padding: 0px;
+	background-color: transparent;
+	color: #AAAAAA;
+	font-size: 12px;
+	width: 150px;
+}
+
+/* 恣曝翠炎籾 */
+#leftcolumn th {vertical-align: middle;}
+#leftcolumn div.blockTitle {
+	padding: 2px;
+	font-weight: bold;
+	background-color: #deebef;
+	background-repeat: no-repeat;
+	background-position: right center;
+	text-transform: uppercase;
+	color: #51a299;
+	font-size: 12px;
+}
+#leftcolumn div.blockContent {
+	line-height: 120%;
+	line-height: 120%;
+	padding-top: 2px;
+	padding-bottom: 5px;
+}
+
+/* 恣才嶄恣曝翠蛍護�濾�貧 */
+#centercolumn {
+	padding: 0px;
+	border-left-width: 10px;
+	border-left-style: solid;
+	border-left-color: #def3bd;
+}
+
+/* 嶄刹曝翠炎籾 */
+#centercolumn th {vertical-align: middle;}
+#centerCcolumn {padding: 0px;}
+#centerCcolumn .blockTitle {
+	color: #002063;
+	font-weight: bold;
+	text-transform: capitalize;
+	background-color: #deebef;
+	padding-left: 5px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	line-height: 19px;
+}
+
+/* 嶄刹曝翠坪否 */
+#centerCcolumn .blockContent {
+	padding: 3px;
+	line-height: 120%;
+	background-color: #ffffff;
+	font-size: 12px;
+	color: #AAAAAA;
+	margin: 0px;
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #a0a0a0;
+}
+
+/* 嶄恣曝 */
+#centerLcolumn {width: 60%; padding: 0px 2px 0px 0px;} 
+#centerLcolumn .blockTitle {
+	color: #002063;
+	font-weight: bold;
+	text-transform: capitalize;
+	background-color: #deebef;
+	padding-left: 5px;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+/* 嶄恣曝坪否 */
+#centerLcolumn .blockContent {
+	padding: 0px;
+	line-height: 120%;
+	background-color: #ffffff;
+	color: #AAAAAA;
+	font-size: 12px;
+	margin: 0px;
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #b5bec6;
+}
+
+/* 嶄嘔曝翠 */
+#centerRcolumn {width: 40%; padding: 0px 0px 0px 2px;}
+#centerRcolumn .blockTitle {
+	color: #002063;
+	font-weight: bold;
+	text-transform: capitalize;
+	background-color: #deebef;
+	padding-left: 2px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+/* 嶄嘔曝坪否 */
+#centerRcolumn .blockContent {
+	padding: 0px;
+	line-height: 120%;
+	background-color: #ffffff;
+	color: #aaaaaa;
+	font-size: 12px;
+	margin: 0px;
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #b5bec6;
+}
+
+#content {text-align: left; padding: 0px;}
+/* 汽嘔曝翠 */
+#right {
+	padding: 0px;
+	background-color: transparent;
+	color: #aaaaaa;
+	font-size: 12px;
+	width: 180px;
+}
+/* 畠嘔曝翠*/
+#rightcolumn {
+	padding: 0px;
+	background-color: transparent;
+	color: #aaaaaa;
+	font-size: 12px;
+	border-left-width: 0px; 
+	border-left-style: solid;
+	border-left-color: #b5bec6
+	width: 150px;
+}
+#rightcolumn th {vertical-align: middle;}
+/* 嘔曝翠炎籾 */
+#rightcolumn div.blockTitle {
+	padding: 0px;
+	font-weight: bold;
+	background-color: #deebef;
+	background-repeat: no-repeat;
+	background-position: right center;
+	color: #002063;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+#rightcolumn div.blockContent {
+	line-height: 120%;
+	line-height: 120%;
+	padding-top: 2px;
+	padding-bottom: 5px;
+}
+
+/* ！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！久何！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！ */
+#obFooter {
+	font-size: 10px;
+	line-height: 0px;
+	height: 0px;
+	text-align: center;
+	padding: 0px;
+	background-color: #229adf;
+	color: #002063;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #9c9a9c;
+}
+
+#cmsFooter {
+	text-align:center;
+	padding: 0px;
+	font-size: 12px;
+	color: #000000;
+	border-left-width: 0px;
+	border-left-style: solid;
+	border-left-color: #b5bec6;
+}
+
+/* ！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！暇汽！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！ */
+
+#mainmenu a {
+	display: block;
+	padding: 1px;
+	color: #aaaaaa;
+	font-weight: normal;
+	text-transform: lowercase;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: transparent;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #84929c;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-top: 0;
+}
+#mainmenu a:hover {
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #f30000;
+}
+#mainmenu a.menuTop {
+	padding-left: 10px;
+}
+#mainmenu a.menuMain {
+	padding-left: 10px;
+	margin-top: 1px;
+}
+#mainmenu a.menuSub {
+	padding-left: 19px;
+	margin-top: 1px;
+}
+
+#usermenu a {display: block; margin: 0; padding: 4px;}
+#usermenu a:hover {}
+#usermenu a.menuTop {}
+#usermenu a.highlight {background-color: #fcc;}
+
+/* Main Menu */
+td#mainmenu { margin-left: 5px; } 
+
+td#mainmenu ul 
+{ 
+margin: 0; 
+padding: 0; 
+list-style: none 
+font-family: verdana, arial, Helvetica, sans-serif; 
+} 
+
+td#mainmenu li { margin: 0; } 
+
+td#mainmenu a 
+{ 
+display: block; 
+padding: 5px 10px; 
+width: 100%; 
+color: #000; 
+background-color: transparent; 
+text-decoration: none; 
+border-top: 1px solid #fff; 
+border-left: 1px solid #fff; 
+border-bottom: 1px solid #333; 
+border-right: 1px solid #333; 
+font-weight: normal; 
+font-size: .8.5em; 
+background-image: url(images/#.jpg); 
+background-repeat: no-repeat; 
+background-position: 0 0; 
+} 
+
+td#mainmenu a:hover 
+{ 
+color: #000; 
+background-color: #9ccb00; 
+text-decoration: none; 
+border-top: 1px solid #333; 
+border-left: 1px solid #333; 
+border-bottom: 1px solid #fff; 
+border-right: 1px solid #fff; 
+background-image: url(images/#.jpg); 
+background-repeat: no-repeat; 
+background-position: 0 0; 
+} 
+
+td#mainmenu ul ul li { margin: 0; } 
+
+td#mainmenu ul ul a 
+{ 
+display: block; 
+padding: 5px 5px 5px 30px; 
+width: 95%; 
+color: #aaa; 
+background-color: #eff7ff; 
+text-decoration: none; 
+font-weight: normal; 
+} 
+
+td#mainmenu ul ul a:hover 
+{ 
+color: #000; 
+background-color: #889E88; 
+text-decoration: none; 
+}
+
+/* User Menu */
+td#usermenu a {	color: #657087;padding-top: 5px;padding-left: 30px;font-weight: bold;}
+td#usermenu a:hover {color:white; font-weight: bold;}
+td#usermenu a.menuTop {padding-left: 30px;}
+td#usermenu a.highlight {}
+/* User 鞠遜 */
+#User {
+    width: 400px;
+	color: #ff9200;
+	background: transparent url('images/bg_user.gif') bottom right no-repeat;
+}
+/* User 佚連 */
+#userinfo {
+	color: #ff9200;
+	background: transparent;
+}
+/* ！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！庁翠式猟忖梓泥 ！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！ */ 
+/* 庁翠協吶 */ 
+.itemHead {
+	color: #002063;
+	font-weight: bold;
+	text-transform: capitalize;
+	background-color: #deebef;
+	padding-left: 5px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: right center;
+	line-height: 19px;
+}
+.itemInfo {
+	text-align: right;
+	padding: 3px;
+	background-color: transparent;
+}
+.itemTitle a {
+	font-weight: bold;
+	color: #002063;
+}
+.itemPoster {font-size: 90%; font-style:italic;}
+.itemPostDate {font-size: 90%; font-style:italic;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {
+	background-color: transparent;
+	margin-top: 2px;
+}
+.itemText {
+	line-height: 1.5em;
+	text-align: justify;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.itemText:first-letter {font-size: 100%;}
+.itemFoot {
+	text-align: right;
+	padding: 1px;
+	background-color: transparent;
+}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+th {
+	background-color: #dee7ef;
+	color: #002063;
+	vertical-align : middle;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+/* 猟忖梓泥 */ 
+
+.anniua{
+	width:70px;
+	line-height:20px;
+	height:20px;
+	font-size:12px;
+	text-align:center;
+	border:1px solid #6C9CC2;
+	cursor:pointer;cursor:hand;
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#CFE1EF);
+	background-color:#DFEDF6;
+	}
+
+/* ！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！凪麿！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！ */
+.outer {
+}
+.head {background-color: transparent; padding: 5px; font-weight: bold;}
+.even {
+	padding: 5px;
+	background-color: transparent;
+}
+.odd {padding: 5px;}
+.foot {background-color: transparent; padding: 5px; font-weight: bold;}
+/* 梓埖拷亀式麿仟療 */
+tr.even td {
+	padding: 5px;
+	background-color: #ffffff;
+}
+tr.odd td {padding: 5px;}
+}
+
+div.errorMsg { background-color: transparent; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: transparent; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : transparent; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #111111; border-bottom: 1px solid #111111; padding: 10px;}
+
+div.xoopsCode { background: transparent; border: 1px inset #81bb4b; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: transparent; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #2F5376; font-weight:bold; border: 1px solid silver; background-color: #222223; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2F5376; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
